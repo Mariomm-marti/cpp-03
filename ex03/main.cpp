@@ -12,7 +12,7 @@ int		main(void)
 	test.takeDamage(101);
 	test.beRepaired(400);
 	test = DiamondTrap("DTRAP");
-	for (size_t i = 0; i < 100; i++)
+	for (size_t i = 0; i < 5; i++)
 		test.attack("new foe");
 	test.attack("new foe");
 }
